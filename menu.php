@@ -5,7 +5,7 @@
 <script type="text/javascript" src="resources/bookflip.js"></script>
 <style type="text/css">
 #desktop {
-	background:url(resources/images/wood-tile.jpg) repeat;
+	background:url('resources/images/wood-tile.jpg') repeat;
 	padding:15px;
 	border:1px solid #000;
 }

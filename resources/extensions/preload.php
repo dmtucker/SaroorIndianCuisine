@@ -1,12 +1,12 @@
 <?php
 
 //  author:   David Tucker
-//  reviewed: 9-1-2011
-//  modified: 9-1-2011
+//  modified: 2014-07-07
+//  modified: 2014-07-07
 //  status:   beta (debugged, untested)
 //
 //  Description
-//      aids in loading a site
+//      boosts performance when loading a site
 //
 //
 //  Constants
@@ -30,10 +30,11 @@
 //  Notes
 //      none
 
-if (!(isset($_SESSION) || session_start())) throw new Exception("A session could not be started."); assert (isset($_SESSION));
+if (!isset($_SESSION) and !session_start()) throw new Exception("A session could not be started.");
+assert (isset($_SESSION));
 
 //CONSTANTS
-if (!array_key_exists("preload_images", $_SESSION)) $_SESSION["preload_images"] = TRUE; //boolean
+if (!array_key_exists("preload_images",$_SESSION)) $_SESSION["preload_images"] = TRUE; //boolean
 
 /******************************************************************************************************
 Description
@@ -65,9 +66,9 @@ function preload_images ($pwd=FALSE)
 	assert (is_dir($pwd));
 	
 	$files = scandir($pwd);
-	foreach ($files as $file) if (substr($file, 0, 1) != '.')
+	foreach ($files as $file) if (substr($file,0,1) != '.')
 		if (is_dir($pwd.$file)) : preload_images($pwd.$file.'/');
-		else                    : ?><img src="<?php echo substr($pwd.$file, strlen($_SERVER["DOCUMENT_ROOT"])); ?>" alt="" style="display:none;" /><?php
+		else                    : ?><img src="<?php echo $pwd.$file; ?>" alt="" style="display:none;" /><?php echo PHP_EOL;
 		endif;
 }
 
