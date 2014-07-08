@@ -8,5 +8,5 @@
 	
 	<title>Saroor Indian Cuisine</title>
 	
-	<link rel="shortcut icon" href="/resources/images/title.ico" />
-	<link rel="stylesheet" type="text/css" href="/resources/style.css" />
+	<link rel="shortcut icon" href="resources/images/title.ico" />
+	<link rel="stylesheet" type="text/css" href="resources/style.css" />

@@ -5,7 +5,7 @@
 			<thead>
 				<tr>
 					<td style="text-align:center;">
-						<img src="/resources/images/banner.png" alt="Saroor Indian Cuisine" height="80" width="588" style="margin:20px auto;" />
+						<img src="resources/images/banner.png" alt="Saroor Indian Cuisine" height="80" width="588" style="margin:20px auto;" />
 					</td>
 				</tr>
 				<tr>
@@ -13,35 +13,35 @@
 						<table id="navbar">
 							<tr>
 								<td>
-									<a href="/index.php">
-										<img src="/resources/images/buttons/home.png" alt="Home" height="60" width="180"
-											onMouseOver="this.src='/resources/images/buttons/homeover.png'"
-											onMouseDown="this.src='/resources/images/buttons/homedown.png'"
-											onMouseOut ="this.src='/resources/images/buttons/home.png'" />
+									<a href="index.php">
+										<img src="resources/images/buttons/home.png" alt="Home" height="60" width="180"
+											onMouseOver="this.src='resources/images/buttons/homeover.png'"
+											onMouseDown="this.src='resources/images/buttons/homedown.png'"
+											onMouseOut ="this.src='resources/images/buttons/home.png'" />
 									</a>
 								</td>
 								<td>
-									<a href="/menu.php">
-										<img src="/resources/images/buttons/menu.png" alt="Menu" height="60" width="180"
-											onMouseOver="this.src='/resources/images/buttons/menuover.png'"
-											onMouseDown="this.src='/resources/images/buttons/menudown.png'"
-											onMouseOut ="this.src='/resources/images/buttons/menu.png'" />
+									<a href="menu.php">
+										<img src="resources/images/buttons/menu.png" alt="Menu" height="60" width="180"
+											onMouseOver="this.src='resources/images/buttons/menuover.png'"
+											onMouseDown="this.src='resources/images/buttons/menudown.png'"
+											onMouseOut ="this.src='resources/images/buttons/menu.png'" />
 									</a>
 								</td>
 								<td>
-									<a href="/reviews.php">
-										<img src="/resources/images/buttons/reviews.png" alt="Reviews" height="60" width="180"
-											onMouseOver="this.src='/resources/images/buttons/reviewsover.png'"
-											onMouseDown="this.src='/resources/images/buttons/reviewsdown.png'"
-											onMouseOut ="this.src='/resources/images/buttons/reviews.png'" />
+									<a href="reviews.php">
+										<img src="resources/images/buttons/reviews.png" alt="Reviews" height="60" width="180"
+											onMouseOver="this.src='resources/images/buttons/reviewsover.png'"
+											onMouseDown="this.src='resources/images/buttons/reviewsdown.png'"
+											onMouseOut ="this.src='resources/images/buttons/reviews.png'" />
 									</a>
 								</td>
 								<td>
-									<a href="/store.php">
-										<img src="/resources/images/buttons/store.png" alt="Hours" height="60" width="180"
-											onMouseOver="this.src='/resources/images/buttons/storeover.png'"
-											onMouseDown="this.src='/resources/images/buttons/storedown.png'"
-											onMouseOut ="this.src='/resources/images/buttons/store.png'" />
+									<a href="store.php">
+										<img src="resources/images/buttons/store.png" alt="Hours" height="60" width="180"
+											onMouseOver="this.src='resources/images/buttons/storeover.png'"
+											onMouseDown="this.src='resources/images/buttons/storedown.png'"
+											onMouseOut ="this.src='resources/images/buttons/store.png'" />
 									</a>
 								</td>
 							</tr>

@@ -31,9 +31,9 @@ body {
 /*standard*/
 #window {
 	min-height:100%;
-	background:url(/resources/images/applique.png) repeat,
-			   url(/resources/images/top-gradient.png) top left repeat-x,
-			   url(/resources/images/bottom-gradient.png) bottom left repeat-x;
+	background:url('images/applique.png') repeat,
+			   url('images/top-gradient.png') top left repeat-x,
+			   url('images/bottom-gradient.png') bottom left repeat-x;
 }
 #main {
 	width:800px;
