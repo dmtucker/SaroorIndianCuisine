@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="David Tucker">
+    <title>Saroor Indian Cuisine</title>
+    <link rel="license" href="//creativecommons.org/licenses/by-sa/4.0/">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <!--link rel="stylesheet" href="styles/static.css">
+    <link rel="stylesheet" href="index.css"-->
+    <script src="scripts/modernizr.2.5.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script src="scripts/turn.js/turn.min.js"></script>
+</head>
+<body>
+    <div id="tabs">
+        <header id="header">
+            <!--h1>Saroor Indian Cuisine</h1-->
+            <img src="images/banner.png" alt="Saroor Indian Cuisine" id="banner">
+            <nav>
+                <ul>
+                    <li><a href="#gallery"><img src="images/buttons/home.png" alt="Home" onmouseover="this.src='images/buttons/home-over.png'" onmousedown="this.src='images/buttons/home-down.png'" onmouseout="this.src='images/buttons/home.png'"></a></li>
+                    <li><a href="#menu"><img src="images/buttons/menu.png" alt="Home" onmouseover="this.src='images/buttons/menu-over.png'" onmousedown="this.src='images/buttons/menu-down.png'" onmouseout="this.src='images/buttons/menu.png'"></a></li>
+                    <li><a href="#reviews"><img src="images/buttons/reviews.png" alt="Home" onmouseover="this.src='images/buttons/reviews-over.png'" onmousedown="this.src='images/buttons/reviews-down.png'" onmouseout="this.src='images/buttons/reviews.png'"></a></li>
+                    <li><a href="#directions"><img src="images/buttons/store.png" alt="Home" onmouseover="this.src='images/buttons/store-over.png'" onmousedown="this.src='images/buttons/store-down.png'" onmouseout="this.src='images/buttons/store.png'"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <article class="tab" id="gallery">
+                <div id="slideshow" class="shadowed section">
+                    <img src="images/restaurant/1.jpg" alt="Restaurant Image" class="active">
+                    <img src="images/restaurant/2.jpg" alt="Restaurant Image">
+                    <img src="images/restaurant/3.jpg" alt="Restaurant Image">
+                    <img src="images/restaurant/4.jpg" alt="Restaurant Image">
+                    <img src="images/restaurant/5.jpg" alt="Restaurant Image">
+                    <img src="images/restaurant/6.jpg" alt="Restaurant Image">
+                    <img src="images/restaurant/7.jpg" alt="Restaurant Image">
+                </div>
+            </article>
+            <article class="tab" id="menu">
+                <div id="flipbook">
+                    <!---
+                    <div style="background: url('images/menu/1.png');"></div>
+                    <div style="background: url('images/menu/2.png');"></div>
+                    <div style="background: url('images/menu/3.png');"></div>
+                    <div style="background: url('images/menu/4.png');"></div>
+                    <div style="background: url('images/menu/5.png');"></div>
+                    <!-->
+                    <div><img src="images/menu/1.png" alt="Page 1"></div>
+                    <div><img src="images/menu/2.png" alt="Page 2"></div>
+                    <div><img src="images/menu/3.png" alt="Page 3"></div>
+                    <div><img src="images/menu/4.png" alt="Page 4"></div>
+                    <div><img src="images/menu/5.png" alt="Page 5"></div>
+                    <!---->
+                </div>
+                <script>
+                    $("#flipbook").turn({
+                        width: 1000,
+                        height: 670,
+                        autoCenter: true
+                    });
+                </script> 
+            </article>
+            <article class="shadowed desktop tab" id="reviews">
+                <h1 class="absent">Reviews</h1>
+                <!--address>
+                    <span class="stencil">2580 N. Main St.<br>Walnut Creek, Ca. 94596</span><br>
+                    <a href="mailto:contact@saroorindiancuisine.com">contact@saroorindiancuisine.com</a><br>
+                    (925) 937-2031
+                </address>
+                <aside id="hours">
+                    <div class="marker">
+                        Monday-Sunday<br>
+                        11:30am-2:30pm<br>
+                        5:00pm-10:00pm
+                    </div>
+                </aside-->
+                <p>
+                    I do not understand why this place is not more crowded, unless everyone takes out like we do.
+                    I have eaten Indian food many times at many restaurants, including in Fremont where you expect it all to be fantastic, and this place is still the best.
+                    Their chicken tikka masala is to die for and the saag paneer is so creamy and delicious.
+                    The Roti, wheat naan, is by far our favorite of the naans and always fresh and soft.
+                    We did opt out of the tikka masala on the most recent trip, but ordered the chicken tikka kabab.
+                    It is so good and without the sauce, a little lighter on the calories. 
+                    The meal was just as big a hit with us.<br>
+                    <br>
+                    YOU ALL NEED TO TRY THIS PLACE.
+                    It is off the beaten path in Walnut Creek, but easy parking and well worth it.
+                    Then you can drive back to downtown for you evening shopping or movies.<br>
+                    <br>
+                    <span style="font-style:normal; color:#F90;">Jennifer P. (Oakland)</span>
+                </p>
+                <hr>
+                <p>
+                    I have been coming here for years and it is really some of the best Indian food I have had in the Bay Area. 
+                    As an added bonus, the servers are friendly and efficient.
+                    I have my favorites (chicken tikka masala and lamb saag are wonderful), but nothing I have tried here has ever let me down.<br>
+                    <br>
+                    I usually order take out and the portions are big enough to last for at least 2 leftover servings.<br>
+                    <br>
+                    There is always a coupon for $8 off a second entree at the Bay Area Coupons webisite that you can print out at home. 
+                    Google &quot;Saroor coupons&quot; to find it.
+                    Even if the coupon says it has expired a month or so ago, Saroor will still honor it since they are always issuing the same coupon in mailers.<br>
+                    <br>
+                    The lunch buffet is awesome too, although they always serve the same things.
+                    It's a good way to try multiple dishes.
+                    But take out (with the coupon) is the way to go for the most bang for your buck.<br>
+                    <br>
+                    <span style="font-style:normal; color:#F90;">Christian M. (San Francisco)</span>
+                </p>
+                <hr>
+                <p>
+                    The people here are really friendly, and the food is delicious!
+                    I always bring a coupon (usually valpak or golden mailer) and get take out, they give really large portions on take out!
+                    My favorite is the Saag chicken and the butter chicken, ordered with a side of rice and 2 naan is about $15-$20 with The coupon. 
+                    Food is always fresh and tasty... they even make it to order (my husband doesn't do butter or cream, and they always accommodate).<br>
+                    <br>
+                    <span style="font-style:normal; color:#F90;">Heather S. (Walnut Creek)</span>
+                </p>
+                <hr>
+                <p>
+                    This place is the best in Walnut Creek.<br>
+                    <br>
+                    In a few words:<br>
+                    Ambiance - Good<br>
+                    Food - Excellent<br>
+                    Portion - Appealing<br>
+                    Price - Very Very Fair<br>
+                    Service - Super<br>
+                    <br>
+                    What else does any customer need??<br>
+                    <br>
+                    Try out this place... worth your money.<br>
+                    Enjoy..... yummy food!<br>
+                    <br>
+                    <span style="font-style:normal; color:#F90;">Deepika R. (Walnut Creek)</span>
+                </p>
+                <hr>
+                <p>
+                    This is the best Indian buffet I've found for lunch in and around Concord/Pleasant Hill/Walnut Creek.
+                    This place was originally recommended by some of our Indian coworkers as being the best place in town (for buffet).
+                    I've been here many many times and will continue to come here.<br>
+                    <br>
+                    <span style="font-style:normal; color:#F90;">Ken L. (San Francisco)</span>
+                </p>
+                <hr>
+                <h3 style="display:inline;">for more reviews, visit</h3>
+                <a href="http://www.yelp.com/biz/saroor-indian-cuisine-walnut-creek/" target="_blank">
+                    <img src="images/yelp.png" alt="Yelp!" height="90" width="180" style="margin-left:15px; vertical-align:middle;">
+                </a>
+            </article>
+            <article class="shadowed desktop tab" id="directions">
+                <figure id="map">
+                    <noscript>
+                        <a href="images/map.png"><img src="images/map.png" alt="map"></a>
+                    </noscript>
+                    <object data="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.481602792361!2d-122.06450299999999!3d37.91917799999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808561758e01ffe7%3A0xa66221c28f0af48f!2sSaroor+Indian+Cuisine!5e0!3m2!1sen!2sus!4v1411579084302" class="absent"></object>
+                </figure>
+                <h1>Directions</h1>
+                <h2>There's a map for that.</h2>
+                <h3>From I-680 S:</h3>
+                <ul>
+                    <li>Take exit 47 for N. Main St. toward Walnut Creek</li>
+                    <li>Keep left at the fork, follow signs for N. Main St. North</li>
+                    <li>Turn right at San Luis Rd.</li>
+                    <li>Turn left at N. Main St.</li>
+                    <li>Saroor will be on your right!</li>
+                </ul>
+                <h3>From CA-24 E:</h3>
+                <ul>
+                    <li>Take the exit onto I-680 N toward Sacramento/Concord</li>
+                    <li>Take exit 18 for N. Main St</li>
+                    <li>Merge onto Penniman Way</li>
+                    <li>Turn right at N. Main St.</li>
+                    <li>Saroor will be on your right!</li>
+                </ul>
+            </article>
+        </main>
+    </div>
+    <footer id="footer">
+        <p class="shadowed section">
+            <a rel="license" href="//creativecommons.org/licenses/by-sa/4.0/">
+                <img src="//i.creativecommons.org/l/by-sa/4.0/80x15.png" alt="Creative Commons Attribution-ShareAlike 4.0 International License">
+            </a>
+            &bull;
+            Created by <a rel="author" href="//www.david.tucker.name/">David Tucker</a> in Santa Cruz, Ca.
+        </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
