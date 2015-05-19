@@ -69,26 +69,6 @@ html, body {
 
 /**/
 
-nav {
-    display: inline-block;
-}
-nav>ul {
-    margin: 0;
-    list-style: none;
-}
-nav>ul>li {
-    float: left;
-}
-nav>ul>li>a:hover, nav>ul>li:hover>a, nav>ul>li:hover>a:hover {
-    color: #06F !important; /* The !important keyword ensures JavaScript does not override this. */
-}
-nav>ul>li>a:link,
-nav>ul>li>a:visited {
-    color: #06F;
-}
-
-/**/
-
 main {
     margin: auto;
 }
