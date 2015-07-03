@@ -51,7 +51,7 @@ body header#header nav a:visited {
 body main#main {
     padding: 1em;
 }
-body main#main div {
+body main#main>div {
     margin: auto;
     width: 1000px;
     padding: 1em;
