@@ -51,7 +51,7 @@ body header#header nav a:visited {
 body main#main {
     padding: 1em;
 }
-body main#main section {
+body main#main div {
     margin: auto;
     width: 1000px;
     padding: 1em;
@@ -72,7 +72,7 @@ body footer#footer p img {
     vertical-align: middle;
 }
 /**/
-section.tabletop {
+div.tabletop {
     border: 1px solid black;
     background: url('index/wood.jpg') repeat;
 }
